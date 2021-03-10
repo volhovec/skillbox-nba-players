@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		B3808B5425F7E76300D7E809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3808B5325F7E76300D7E809 /* AppDelegate.swift */; };
 		B3808B5625F7E76300D7E809 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3808B5525F7E76300D7E809 /* SceneDelegate.swift */; };
-		B3808B5825F7E76300D7E809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3808B5725F7E76300D7E809 /* ViewController.swift */; };
 		B3808B5B25F7E76300D7E809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3808B5925F7E76300D7E809 /* Main.storyboard */; };
 		B3808B5D25F7E76400D7E809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3808B5C25F7E76400D7E809 /* Assets.xcassets */; };
 		B3808B6025F7E76400D7E809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3808B5E25F7E76400D7E809 /* LaunchScreen.storyboard */; };
+		B3808B6A25F7E87D00D7E809 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3808B6925F7E87D00D7E809 /* PlayersViewController.swift */; };
+		B3808B6D25F7EFEE00D7E809 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3808B6C25F7EFEE00D7E809 /* PlayerDetailsViewController.swift */; };
+		B3808B7025F7F3EB00D7E809 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3808B6F25F7F3EB00D7E809 /* Player.swift */; };
+		B3808B7325F8020A00D7E809 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3808B7225F8020A00D7E809 /* Team.swift */; };
+		B3808B7625F8025D00D7E809 /* TeamDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3808B7525F8025D00D7E809 /* TeamDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3808B5025F7E76300D7E809 /* Skillbox NBA Players.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skillbox NBA Players.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3808B5325F7E76300D7E809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3808B5525F7E76300D7E809 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3808B5725F7E76300D7E809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3808B5A25F7E76300D7E809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3808B5C25F7E76400D7E809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3808B5F25F7E76400D7E809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3808B6125F7E76400D7E809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3808B6925F7E87D00D7E809 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		B3808B6C25F7EFEE00D7E809 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		B3808B6F25F7F3EB00D7E809 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B3808B7225F8020A00D7E809 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		B3808B7525F8025D00D7E809 /* TeamDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				B3808B5325F7E76300D7E809 /* AppDelegate.swift */,
 				B3808B5525F7E76300D7E809 /* SceneDelegate.swift */,
-				B3808B5725F7E76300D7E809 /* ViewController.swift */,
 				B3808B5925F7E76300D7E809 /* Main.storyboard */,
 				B3808B5C25F7E76400D7E809 /* Assets.xcassets */,
 				B3808B5E25F7E76400D7E809 /* LaunchScreen.storyboard */,
 				B3808B6125F7E76400D7E809 /* Info.plist */,
+				B3808B6925F7E87D00D7E809 /* PlayersViewController.swift */,
+				B3808B6C25F7EFEE00D7E809 /* PlayerDetailsViewController.swift */,
+				B3808B6F25F7F3EB00D7E809 /* Player.swift */,
+				B3808B7225F8020A00D7E809 /* Team.swift */,
+				B3808B7525F8025D00D7E809 /* TeamDetailsViewController.swift */,
 			);
 			path = "Skillbox NBA Players";
 			sourceTree = "<group>";
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3808B5825F7E76300D7E809 /* ViewController.swift in Sources */,
+				B3808B7325F8020A00D7E809 /* Team.swift in Sources */,
 				B3808B5425F7E76300D7E809 /* AppDelegate.swift in Sources */,
 				B3808B5625F7E76300D7E809 /* SceneDelegate.swift in Sources */,
+				B3808B6D25F7EFEE00D7E809 /* PlayerDetailsViewController.swift in Sources */,
+				B3808B7025F7F3EB00D7E809 /* Player.swift in Sources */,
+				B3808B7625F8025D00D7E809 /* TeamDetailsViewController.swift in Sources */,
+				B3808B6A25F7E87D00D7E809 /* PlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
